@@ -135,6 +135,22 @@
 #main .main-content .part .center-content .register-form .bottom-img .vector-img {
   width: 100%;
 }
+@media only screen and (max-width: 350px) {
+  #main .main-content .part .center-content .register-form {
+    padding: 20px;
+  }
+  #main .main-content .part .center-content .register-form form {
+    width: 100%;
+  }
+  #main .main-content .part .center-content .register-form form div {
+    width: 100%;
+  }
+  #main .main-content .part .center-content .register-form form div .info-input,
+#main .main-content .part .center-content .register-form form div .btn-input {
+    margin: 5px 0;
+    width: 100%;
+  }
+}
 #main .main-content .part .center-content .direct-btn {
   margin: 40px 0;
 }
