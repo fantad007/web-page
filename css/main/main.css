@@ -167,11 +167,6 @@
   position: relative;
   height: 450px;
 }
-@media only screen and (max-width: 400px) {
-  #main .main-content .part .slide-pic {
-    height: 500px;
-  }
-}
 @media only screen and (max-width: 280px) {
   #main .main-content .part .slide-pic {
     height: 400px;
