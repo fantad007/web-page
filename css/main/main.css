@@ -25,6 +25,7 @@
 #main .title h2 {
   font-size: 20px;
   font-weight: 300;
+  font-style: italic;
 }
 #main .title .banner {
   margin-top: 20px;
