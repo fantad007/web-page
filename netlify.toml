@@ -3,3 +3,9 @@
   to = "/"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/highlands-voucher-page.html"
+  to = "/khuyen-mai-highlands-uu-dai-highlands-voucher-highlands"
+  status = 200
+  force = true  
