@@ -1,11 +1,5 @@
 [[redirects]]
-  from = "/1-thang-lam-dep-hieu-qua-de-co-khuon-mat-dep-nhu-mo"
-  to = "/yoga-page.html"
+  from = ""
+  to = ""
   status = 200
   force = true
-
-[[redirects]]
-  from = "/khuyen-mai-highlands-uu-dai-highlands-voucher-highlands"
-  to = "/sub-page/highlands-voucher-page.html"
-  status = 200
-  force = true  
