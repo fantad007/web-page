@@ -36,13 +36,60 @@
 }
 #main .opening {
   font-weight: 300;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+}
+#main .follow-action {
+  padding: 20px;
+  border: 1px dotted #000;
+  margin-bottom: 60px;
+  box-shadow: 0px 0px 2px 2px #dadada;
+}
+#main .follow-action .box {
+  background-color: #52c9ac;
+  color: #FFF;
+  text-align: center;
+  padding: 20px;
+  line-height: 2;
+}
+#main .follow-action .box i {
+  font-size: 18px;
+  color: #FFD966;
+}
+#main .follow-action .box a {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 6px;
+  background-color: #1b74e4;
+  color: #fff;
+  margin-left: 8px;
+  margin-right: 8px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transform: scale(1);
+  animation: pulse-blue 2s infinite;
+  border-radius: 2px;
+}
+#main .follow-action .box a i {
+  color: #FFF;
+}
+@keyframes pulse-blue {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
 }
 #main .main-content {
   margin-bottom: 20px;
 }
 #main .main-content .part {
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 #main .main-content .part .illustration {
   margin-top: 20px;
@@ -161,6 +208,22 @@
   background-color: #20DF7F;
   color: #FFF;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transform: scale(1);
+  animation: pulse-green 2s infinite;
+}
+@keyframes pulse-green {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
 }
 #main .main-content .part ul {
   --icon-space: 1.3em;
