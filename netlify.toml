@@ -1,5 +1,5 @@
 [[redirects]]
-  from = ""
-  to = ""
+  from = "/"
+  to = "/yoga-page.html"
   status = 200
   force = true
